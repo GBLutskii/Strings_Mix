@@ -1,5 +1,6 @@
 # Strings_Mix
 Some challenge from Codewars (read more https://www.codewars.com/kata/5629db57620258aa9d000014/csharp).
+
 Given two strings s1 and s2, we want to visualize how different the two strings are. We will only take into account the lowercase letters (a to z). First let us count the frequency of each lowercase letters in s1 and s2.
 
 s1 = "A aaaa bb c"
@@ -18,5 +19,6 @@ The task is to produce a string in which each lowercase letters of s1 or s2 appe
 
 In the result, substrings (a substring is for example 2:nnnnn or 1:hhh; it contains the prefix) will be in decreasing order of their length and when they have the same length sorted in ascending lexicographic order (letters and digits - more precisely sorted by codepoint); the different groups will be separated by '/'. See examples and "Example Tests".
  
+
  
  P.S.: You may paste the code from class Codewars_Strings_Mix to check it on codewars.com or run the Program.cs with attached class to check it on your PC with your own test strings.
